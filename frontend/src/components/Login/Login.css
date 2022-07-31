@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&family=Encode+Sans:wght@700;900&family=Fira+Sans+Condensed&family=Inter:wght@600&family=Poppins:wght@200;300;400;500;600;700;800&family=Raleway:ital,wght@1,900&family=Tajawal&family=Varela+Round&display=swap');
+
+.Login{
+    margin-left: -17px;
+}
+
+.loginButton button{
+    padding: 12px 20px;
+    border: none;
+    background-color: #1888ff;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Varela Round', sans-serif;
+}
+.loginButton button:hover{
+    background-color: #26a2f5;
+
+}

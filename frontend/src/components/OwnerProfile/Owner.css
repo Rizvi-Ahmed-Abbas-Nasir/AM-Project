@@ -1,0 +1,119 @@
+.Profile{
+    color: white;
+    font-size: 350%;
+    padding-top: 8%;
+    margin-left: 5%;
+    font-family: 'Raleway', sans-serif;
+}
+.imagepro{
+    padding: 150px 70px;
+    position: relative;
+    margin-right: 5px;
+}
+.imagepro img{
+    width: 24%;
+    position: relative;
+    top: -134.5px;
+    margin-left:-70px;
+}
+.nameOwner{
+    margin-left: 50%;    
+    position: relative;
+    top: -570px;
+}
+.nameOwner h1{
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    position: relative;
+    top: -120px;
+    font-family: 'Raleway', sans-serif;
+}
+.nameOwner h4{
+    color: rgb(0, 0, 0);
+    font-size: 50%;
+    position: relative;
+    top: -90px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.Component{
+    height: 30vw;
+    width: 90vw;
+    margin: 0 auto;
+    left: -2%;
+    position: relative;
+    background-color: rgb(191, 194, 194);
+    bottom: -50px;
+}
+
+.Component2{
+    top: 150px;
+    position: relative;
+    height: 20vw;
+    width: 60vw;
+    background-color: rgb(191, 194, 194);
+   margin-left: 150px; 
+   
+}
+.DownText{
+    padding: 20% 0%;
+}
+.Border img{
+    width: 20%;
+}
+.Border{
+    position: relative;
+    top: 55px;
+    margin-left: 50px;
+}
+.Rizvi img{
+    border-radius: 80px;
+    z-index: 10;
+}
+.Rizvi{
+    position: relative;
+    top:-187px;
+}
+.DevName h1{
+    font-size: 70%;
+    top: -330px;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    margin-left: 50%;
+    color: black;
+}
+.DevName h4{
+    font-size: 40%;
+    top: -310px;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    margin-left: 50%;
+    color: black;
+}
+.rizvibuttom a{
+  display: inline-block;
+  font-size: 25%;
+  background: rgb(255, 0, 0);
+  padding: 10px 30px;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #111;
+  transition: 0.2s;
+  top: -300px;
+  position: relative;
+    margin-left: 50%;
+    text-decoration: none;
+    color:white;
+}
+.rizvibuttom a:hover
+{
+  letter-spacing: 6px;
+}
+.DevName p{
+    top: -290px;
+    position: relative;
+    margin-left: 50%;
+    font-size: 30%;
+    color: #111;
+
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+
+
+.image img{
+    width: 39%;
+    margin-left: 2%;
+    top: 26px;
+    position: relative;
+}
+
+.BGSlider{
+    background-color: white;
+    border-radius: 10px;
+}
+.ProductList{
+    margin-left: 50%;
+    margin-top: -27%;
+}
+.ProductList h2{
+    position: relative;
+    top: -90px;
+    font-size: 250%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.Criedit h3{
+    font-weight: 700;
+    font-size: 110%;
+}
+.Criedit h4{
+    position: relative;
+    top: -25px;
+    font-weight: 700;
+    margin-left: 7%;
+    font-size: 110%;
+    color: blue;
+}
+.Criedit{
+    position: relative;
+    top: -70px;
+}
+.ProductList p{
+    position: relative;
+    top: -70px;
+
+}
+.price h4{
+    position: relative;
+    top: -50px;
+}
+.Power h5{
+    position: relative;
+    top: -30px;
+    font-size: 90%;
+} 
+.bt1 {
+    position: relative;
+    top: 7px;
+}
+.bt1 button{
+    padding: 4px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    padding-bottom: 12px;
+}
+
+.bt2 button{
+    padding: 5px 17px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    padding-bottom: 12px;
+}
+.bt2{
+    margin-left: 25%;
+    position: relative;
+    top: -40px;
+}
+.saveicon{
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+.icon{
+  position: relative;
+  top: 7px;  
+}

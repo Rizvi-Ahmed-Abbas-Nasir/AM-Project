@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&family=Encode+Sans:wght@700;900&family=Inter:wght@600&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
+
+.Headers{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12%;
+  
+} 
+
+ /* .toggle
+{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url(https://i.ibb.co/HrfVRcx/menu.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+}
+.toggle.active
+{
+  background: url(https://i.ibb.co/rt3HybH/close.png);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  cursor: pointer;
+}  */
+
+.HeaderIcon{
+    width: 50px;
+    margin-left: -80px;
+    margin-top: -5px;
+    border-radius: 6px;
+}
+.AddToCart {
+  width: 40px;
+  margin-left:3%;
+}
+
+.IconName h2{
+  color: white;
+  font-size: 44px;
+  margin-left: 20px;
+
+}
+.IconName h3{
+  color: white;
+  float:right;
+  padding-left: 178px;
+  margin-top: -38px;
+}
+.IconName{
+  margin-top: -1px;
+  margin-left: -5px;
+}
+
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  background-color: black !important;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.search-hover {
+  border: 1px solid #ccc;
+  outline: none;
+  background-size: 22px;
+  background-position: 13px;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 25px;
+  transition: all 0.5s;
+}
+.search-hover:hover {
+  width: 300px;
+  padding-left: 50px;
+}
+.header__optionLineTwo{
+  color: black;
+  position: relative;
+  z-index: 10;
+  left: 43px;
+}
+.IconStar{
+  color: white;
+  position: absolute;
+  cursor: pointer;
+  user-select: none;
+  transform: scale(2.2);
+  right: 50px;
+}
