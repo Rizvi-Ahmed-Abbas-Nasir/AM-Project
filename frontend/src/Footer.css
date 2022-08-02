@@ -1,0 +1,21 @@
+.FooterIcon{
+    width: 80px;
+    margin-left: 20px;
+    margin-top: -5px;
+    border-radius: 6px;
+}
+.IcnName h2{
+    color: white;
+    font-size: 55px;
+    color: white;
+    position: relative;
+    top: -70px;
+    margin-left: 120px;
+  
+  }
+  .IcnName h3{
+    color: white;
+    padding-left: 178px;
+    margin-top: -9.2%;
+    margin-left: 12%;
+  }

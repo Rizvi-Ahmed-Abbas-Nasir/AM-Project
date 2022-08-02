@@ -14,9 +14,14 @@ function Owner() {
                 <img src={OwnerImg} />
             </div>
             <div className='nameOwner'>
-                <h1>Owner's Name</h1>
+                <h1>Ajay Dwivedi</h1>
                 <h4>The Founder of Anant Motors</h4>
+                <p>"Success depends on employees. For me knowing and connecting with my employees is very important." -Divine Ndhlukula, founder and managing director of DDNS Security Operations Ltd</p>
+                <div className='OwnerButton'>
+               <a href='#'>Learn More</a>
             </div>
+            </div>
+
             </div>
             <div className='Component2'>
             <div className='ImgOfDeveloper'>

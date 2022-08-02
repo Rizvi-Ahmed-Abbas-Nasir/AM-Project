@@ -1,5 +1,8 @@
 import React from "react";
 import "./Card.css";
+import Safety from '../assets/images/Safety.png'
+import no_Emmison from '../assets/images/no_Emmison.png'
+import budget from '../assets/images/budget.png'
 
 const Card = () => {
   const [selectedIndex, setSelectedIndex] = React.useState(0);
@@ -46,14 +49,29 @@ const Card = () => {
                 checked={selectedIndex === 2}
                 onClick={() => check(2)}
               />
-              <label htmlFor="s1" id="slide1">
-                <img className="fea" src="https://picsum.photos/200/200" height="100%" width="100%"/>
+              <label htmlFor="s1" id="slide1" className="imgCard">
+                <img className="fea" src={Safety} />
+                <div className="Comp">
+                    <h1>Safety</h1>
+                    <h4>We can assure you Our Product Is very Safe and easy </h4>
+                    <button>Learn More</button>
+                </div>
               </label>
-              <label htmlFor="s2" id="slide2">
-                <img className="fea" src="https://picsum.photos/200/300" height="100%" width="100%"/>
+              <label htmlFor="s2" id="slide2" className="imgCard">
+                <img className="fea" src={no_Emmison}/>
+                <div className="Comp">
+                    <h1>No Emmison</h1>
+                    <h4>We can assure you Our Product Is very Safe and easy </h4>
+                    <button>Learn More</button>
+                </div>
               </label>
-              <label htmlFor="s3" id="slide3">
-                <img className="fea" src="https://picsum.photos/300/300" height="100%" width="100%"/>
+              <label htmlFor="s3" id="slide3" className="imgCard">
+                <img className="fea" src={budget}/>
+                <div className="Comp">
+                    <h1>budget</h1>
+                    <h4>We can assure you Our Product Is very Safe and easy </h4>
+                    <button>Learn More</button>
+                </div>
               </label>
             </section>
           </div>

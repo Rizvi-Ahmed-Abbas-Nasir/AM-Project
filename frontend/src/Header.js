@@ -21,7 +21,7 @@ function Header() {
        const isSticky = (e) => {
             const header = document.querySelector('.header-section');
             const scrollTop = window.scrollY;
-            scrollTop >= 200 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky');
+            scrollTop >= 80 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky');
         };
   return (
     <div className='Headers header-section  d-none d-xl-block'>

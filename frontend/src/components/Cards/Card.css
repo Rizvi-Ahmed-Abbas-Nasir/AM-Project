@@ -11,8 +11,8 @@
   #slider label {
     margin: auto;
     background-color: aliceblue;
-    width: 60%;
-    height: 100%;
+    width: 50%;
+    height: 90%;
     border-radius: 50px;
     position: absolute;
     left: 0; right: 0;
@@ -54,4 +54,37 @@
   .button2 button{
     padding: 9px 9px;
     border: none;
+  }
+  .imgCard img{
+    width: 50%;
+    margin-left: 25%;
+    position: relative;
+    top: 50px;
+  }
+  .Comp{
+    position: relative;
+    top: 50px;
+  }
+  .Comp h1{
+    position: relative;
+    text-align: center;
+    font-size: 150%;
+  }
+ 
+  .Comp h4{
+    position: relative;
+    top: 15px;
+    padding: 0px 20px;
+    font-size: 90%;
+
+  }
+  .Comp button{
+    border: none;
+    border-radius:8px ;
+    color: white;
+    background-color: red;
+    padding: 9px 12px;
+    margin-left: 90px;
+    position: relative;
+    top: 30px;
   }
