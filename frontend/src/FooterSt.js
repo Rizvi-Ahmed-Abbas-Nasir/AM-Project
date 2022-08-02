@@ -20,7 +20,7 @@ export const Container = styled.div`
     margin: 0 auto;
     /* background: red; */
     position:relative;
-    top:50px;
+    top:25px;
 `
    
 export const Column = styled.div`

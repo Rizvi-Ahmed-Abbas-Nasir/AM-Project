@@ -6,6 +6,7 @@ import Navbar from './components/Navigation/Navbar';
 import Login from './components/Login/Login';
 import {useStateValue} from './components/Provider/StateProvider'
 import StarIcon from '@mui/icons-material/Star';
+import { Link } from 'react-router-dom';
 
 
 function Header() {
@@ -31,7 +32,9 @@ function Header() {
           <h3>Motors</h3>
         </div>
         <Navbar />
+        <Link to = "/Login"> 
         <Login />
+        </Link>
         <div className='Favorite'>
         <StarIcon value={{ className: "shared-class", size: 70 }}className='IconStar'/>
         <span className="header__optionLineTwo header__Bastketcart">{cart?.length}</span>

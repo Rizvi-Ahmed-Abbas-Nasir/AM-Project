@@ -5,11 +5,15 @@ import intagramicon from "./assets/images/instagram-removebg-preview.png";
 import twittericon from "./assets/images/tiwtter-removebg-preview.png";
 import './HomePage.css';
 import Search from './components/Search/Search';
+import Header from './Header';
+import HomeSection from './HomeSection';
+import Footer from './Footer';
 
 
 function HomePage() {
   return (
     <div className='Home'>
+      <Header />
       <div className='HomePage'>
       <video autoPlay="autoplay" loop="loop" muted>
         <source src={videoSource} type="video/mp4" />
@@ -30,6 +34,8 @@ function HomePage() {
       </ul>
       </div>
       </div>
+      <HomeSection />
+      <Footer />
     </div>
   )
 }

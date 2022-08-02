@@ -1,0 +1,114 @@
+body {
+background-color: black;
+
+}
+
+.LoginPage {
+
+    padding: 50px 50px;
+
+}
+
+.LoginContanier {
+    background-color: white;
+    height: fit-content;
+    height: 100%;
+    border: 10px;
+    margin-top: 5rem;
+    margin: 12rem 35rem;
+    width: 22%;
+    margin-right: 60rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+
+}
+
+
+
+.UpperText h2 {
+    margin-top: -2rem;
+    margin-left: -2rem;
+    padding-right: 30px;
+}
+
+.FirstInput text {
+    font-size: 13px;
+    margin-left: -16px;
+}
+
+.FirstInput input {
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-left: -20px;
+    border: 1px solid rgb(95, 91, 91);
+}
+
+.SecondInput text {
+    font-size: 13px;
+    margin-left: -18px;
+
+}
+
+.SecondInput input {
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-left: -20px;
+    border: 1px solid rgb(95, 91, 91);
+}
+
+.FirstInput {
+    margin-top: 25px;
+}
+
+.SecondInput {
+    margin-top: 20px;
+}
+
+
+.button button {
+    width: 110%;
+    padding: 9px 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-left: -20px;
+    border-radius: 5px;
+}
+
+.button {
+    margin-top: 9px;
+}
+
+.buttontext {
+    padding: 20px 0px;
+
+}
+
+.buttontext text {
+    margin-left: 95px;
+}
+
+.OrText {
+    color: rgb(94, 92, 92);
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.AllImage img {
+    width: 20%;
+    justify-content: space-between;
+    float: left;
+    padding: 0px 0px;
+}
+img {
+    margin-left: 5px;
+    /* Horizontal Space */
+    margin-top: 20px;
+    
+}
