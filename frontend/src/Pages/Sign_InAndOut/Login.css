@@ -1,8 +1,6 @@
-body {
-background-color: black;
-
+body{
+    background-color: black;
 }
-
 .LoginPage {
 
     padding: 50px 50px;
@@ -106,6 +104,7 @@ background-color: black;
     float: left;
     padding: 0px 0px;
 }
+
 img {
     margin-left: 5px;
     /* Horizontal Space */

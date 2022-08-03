@@ -8,7 +8,7 @@ function Login() {
             <Header />
             <div className='LoginPage'>
                 <div className='UpperText'>
-                    <h2>Welcome Back</h2>
+                    <h2>Anant Motors</h2>
                 </div>
                 <div className='FirstInput'>
                     <text>Email</text>

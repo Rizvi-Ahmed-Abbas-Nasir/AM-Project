@@ -5,7 +5,7 @@ function Login() {
   return (
     <div className='Login'>
         <div className='loginButton'>
-            <button>LOGIN</button>
+            <button>Sign In</button>
         </div>
     </div>
   )
