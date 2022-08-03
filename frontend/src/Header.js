@@ -26,7 +26,9 @@ function Header() {
         };
   return (
     <div className='Headers header-section  d-none d-xl-block'>
+      <Link to = "/" >
         <img className="HeaderIcon" src={iconsource} alt='Headericon' />
+      </Link>
         <div className="IconName">
           <h2>ANANT</h2>
           <h3>Motors</h3>

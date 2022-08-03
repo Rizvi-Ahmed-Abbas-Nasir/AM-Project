@@ -51,13 +51,13 @@
 .IconName h2{
   color: white;
   font-size: 44px;
-  margin-left: 20px;
+  margin-left: -10px;
 
 }
 .IconName h3{
   color: white;
   float:right;
-  padding-left: 178px;
+  padding-left: 150px;
   margin-top: -38px;
 }
 .IconName{

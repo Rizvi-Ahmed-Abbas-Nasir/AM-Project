@@ -9,7 +9,6 @@ import Header from './Header';
 import HomeSection from './HomeSection';
 import Footer from './Footer';
 
-
 function HomePage() {
   return (
     <div className='Home'>

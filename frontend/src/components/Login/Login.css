@@ -4,13 +4,17 @@
     margin-left: -17px;
 }
 
+.loginButton h5{
+  text-align: center;
+  font-size: 90%;
+}
+
 .loginButton button{
     padding: 12px 20px;
     border: none;
     background-color: #1888ff;
     color: white;
     border-radius: 5px;
-    font-family: 'Varela Round', sans-serif;
 }
 .loginButton button:hover{
     background-color: #26a2f5;
