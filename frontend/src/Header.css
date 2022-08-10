@@ -101,9 +101,33 @@
 }
 .IconStar{
   color: white;
-  position: absolute;
   cursor: pointer;
   user-select: none;
   transform: scale(2.2);
   right: 50px;
+  position: relative;
+  top: 12px;
+}
+.Favorite span{
+  position: relative;
+  top: -17px;
+  left: -43px;
+}
+.LogoutButton {
+  display: flex;
+  left: 70px;
+  position: relative;
+  top: -15px;
+}
+.LogoutButton button{
+  padding: 9px 8px;
+  border: none;
+  background: #1888ff;
+  color: white;
+  border-radius: 2px;
+  z-index: 10;
+}
+.Login{
+  position: relative;
+  left: 20px;
 }

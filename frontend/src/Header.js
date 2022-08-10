@@ -7,10 +7,15 @@ import Login from './components/Login/Login';
 import {useStateValue} from './components/Provider/StateProvider'
 import StarIcon from '@mui/icons-material/Star';
 import { Link } from 'react-router-dom';
+import { useContext } from "react";
+import AuthContext from './context/AuthContext'
+import UserInfo from "./components/Usersinfo/UserInfo";
+
 
 
 function Header() {
-  const  [{cart,user}, dispatch] = useStateValue();
+  const { user, logoutUser } = useContext(AuthContext);
+  const  [{cart}, dispatch] = useStateValue();
    // Sticky Menu Area
    useEffect(() => {
     window.addEventListener('scroll', isSticky);
@@ -33,15 +38,31 @@ function Header() {
           <h2>ANANT</h2>
           <h3>Motors</h3>
         </div>
-        <Navbar />
-        <Link to = "/Login"> 
-        <Login />
-        </Link>
+        <Navbar /> 
         <div className='Favorite'>
         <StarIcon value={{ className: "shared-class", size: 70 }}className='IconStar'/>
         <span className="header__optionLineTwo header__Bastketcart">{cart?.length}</span>
         </div>
+        <div>
+          {user ? (
+            <>
+             {user && <UserInfo user={user} />}
+             <div className='LogoutButton'>
+              <button onClick={logoutUser}>Logout</button>
+              </div>
+            </>
+          ) : (
+            <>
+            <Link to='/register'>
+            <div className='Login'>
+            <Login />
+            </div>
+            </Link>
+            </>
+          )}
+        </div>
         <div className='toggle'></div>
+        
     </div>
   )
 }
