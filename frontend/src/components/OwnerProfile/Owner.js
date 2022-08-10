@@ -11,14 +11,14 @@ function Owner() {
             <h2>Profile</h2>
             <div className='Component'>
             <div className='imagepro'>
-                <img src={OwnerImg} />
+                <img src={OwnerImg}   alt=''/>
             </div>
             <div className='nameOwner'>
                 <h1>Ajay Dwivedi</h1>
                 <h4>The Founder of Anant Motors</h4>
                 <p>"Success depends on employees. For me knowing and connecting with my employees is very important." -Divine Ndhlukula, founder and managing director of DDNS Security Operations Ltd</p>
                 <div className='OwnerButton'>
-               <a href='#'>Learn More</a>
+               <a href='#' >Learn More</a>
             </div>
             </div>
 
@@ -26,9 +26,9 @@ function Owner() {
             <div className='Component2'>
             <div className='ImgOfDeveloper'>
               <div className='Border'>
-              <img src={Border} />
+              <img src={Border}  alt=''/>
               <div className='Rizvi'>
-                <img src={Rizvi} />
+                <img src={Rizvi}  alt=''/>
               </div>
               </div>
             </div>

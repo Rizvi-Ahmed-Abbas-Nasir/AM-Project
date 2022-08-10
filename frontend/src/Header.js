@@ -40,8 +40,8 @@ function Header() {
         </div>
         <Navbar /> 
         <div className='Favorite'>
-        <StarIcon value={{ className: "shared-class", size: 70 }}className='IconStar'/>
         <span className="header__optionLineTwo header__Bastketcart">{cart?.length}</span>
+        <StarIcon value={{ className: "shared-class", size: 70 }}className='IconStar'/>
         </div>
         <div>
           {user ? (
@@ -53,7 +53,7 @@ function Header() {
             </>
           ) : (
             <>
-            <Link to='/register'>
+            <Link to='/login'>
             <div className='Login'>
             <Login />
             </div>

@@ -15,9 +15,15 @@ function Vehicle({id, title, para, price, image, power}) {
 
   const [{cart}, dispatch] = useStateValue();
 
+  const [buttonText, setButtonText] = useState("Favorite");
+
     console.log("In side Cart",cart);
 
     const addToCart = () => {
+      setButtonText("Added");
+      setTimeout(() => {
+        setButtonText("Favorite");
+      }, 1000);
       OneClick(current => !current);
       if(btnRef.current){
         btnRef.current.setAttribute("disabled", "disabled");
@@ -39,7 +45,7 @@ function Vehicle({id, title, para, price, image, power}) {
          <div className="BGSlider">
          <div className="BGSlider">
           <div className="image">
-            <img src={image} />
+            <img src={image} alt='' />
             <div className="ProductList">
                 <h2>{title}</h2>
                 <div className="Criedit">
@@ -55,12 +61,13 @@ function Vehicle({id, title, para, price, image, power}) {
                 </div>
                 <div className="bt1">
                     <button 
+                    type="submit"
                     style={{
                       backgroundColor: ClickChange ? 'salmon' : '',
                       color: ClickChange ? 'white' : '',
-                      text: ClickChange ? "Added" : '',
+                      text : ClickChange ? "Added" : 'Favorite',
                     }}
-                    ref={btnRef} onClick={addToCart}> <StarIcon className="saveicon" />Favorite</button>
+                    ref={btnRef} onClick={addToCart}> <StarIcon className="saveicon" />{buttonText}</button>
                 </div>
                 <div className="bt2">
                     <button><BookmarkIcon className="icon"/>Book Now</button>

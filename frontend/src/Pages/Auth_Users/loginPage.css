@@ -1,0 +1,78 @@
+.Component5{
+    top: 150px;
+    position: relative;
+    height: 35vw;
+    width: 40vw;
+    background-color: rgb(191, 194, 194);
+    z-index: 10;
+    margin-left: 32%;
+}
+
+.Component6{
+        position: relative;
+        height: 10vw;
+        width: 40vw;
+        background-color: #1888ff;
+        margin-top: 50px;
+        top: 36px;
+}
+
+.signUp a{ 
+    text-decoration:  none;
+    color: white;
+    position: relative;
+    top: 25px;
+    left: 15px;
+    font-size: 110%;
+}
+.SignUpWithGoogle2 p{
+    position: relative;
+    right: -70px;
+    margin-top: -20px;
+    top: -10px;
+}
+.SignUpWithGoogle2 {
+    background-color: white;
+    margin-left: 130px;
+    margin-right: 170px;
+   position: relative;
+   padding: 0.5px 0px;
+   top: 30px;
+   left: 15px;
+} 
+
+.Input1{
+    margin-top: 20px;
+}
+
+.Input1 label{
+    left: 105px;
+    position: relative;
+    top: 30px;
+}
+.Input1 input{
+    padding: 10px;
+    padding-right:170px;
+    border: none;
+    display: flex;
+    left: 100px;
+    position: relative;
+    margin-top: 10px;
+    top: 20px;
+}
+
+.Input1 button{
+    position: relative;
+    top: 30px;
+}
+
+.Pageregister1 button{
+    padding: 9px 12px;
+    border: none;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 230px;
+    top: 50px;
+    z-index: 10;
+}

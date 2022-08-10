@@ -106,12 +106,12 @@
   transform: scale(2.2);
   right: 50px;
   position: relative;
-  top: 12px;
+  top: 2px;
 }
 .Favorite span{
   position: relative;
-  top: -17px;
-  left: -43px;
+  top: -5px;
+  left: -34px;
 }
 .LogoutButton {
   display: flex;
