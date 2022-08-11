@@ -39,16 +39,16 @@
   }
   .button1{
     position: relative;
-    top: 230px;
-    margin-left: 20%;
+    top: 210px;
+    margin-left: 26%;
   }
   .button1 button{
     padding: 9px 9px;
     border: none;
   }
   .button2{
-    margin-left: 73%;
-    top: -220px;
+    margin-left: 67.5%;
+    top: -235px;
     position: relative;
   }
   .button2 button{
@@ -59,7 +59,7 @@
     width: 50%;
     margin-left: 25%;
     position: relative;
-    top: 50px;
+    top: 30px;
   }
   .Comp{
     position: relative;

@@ -18,6 +18,9 @@ const LoginPage = () => {
     <>
     <Header />
     <section className="Component5">
+    <div className="SignUptext">
+      <h2>Login</h2>
+      </div>
       <Link to = "/" >
         <img className="HeaderIcon2" src={iconsource} alt='Headericon' />
       </Link>
@@ -38,7 +41,7 @@ const LoginPage = () => {
         <p>Sign In With Google</p>
       </div>
       <div className="signUp">
-      <Link to='/register'><a>Sign Up ?</a></Link>
+      <Link to='/register'><a>Sign Up</a></Link>
       </div>
       </div>
     </section>

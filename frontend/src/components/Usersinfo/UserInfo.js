@@ -3,7 +3,7 @@ import './Userinfo.css'
 function UserInfo({ user }) {
   return (
     <div className='UserName'>
-      <h1>{user.username}</h1>
+      <p>{user.username}</p>
     </div>
   );
 }

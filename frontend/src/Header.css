@@ -97,27 +97,22 @@
   color: black;
   position: relative;
   z-index: 10;
-  left: 43px;
+  left: -47px;
 }
 .IconStar{
   color: white;
   cursor: pointer;
   user-select: none;
   transform: scale(2.2);
-  right: 50px;
-  position: relative;
-  top: 2px;
-}
-.Favorite span{
-  position: relative;
-  top: -5px;
-  left: -34px;
+  position: absolute;
+  margin-top: -1px;
+  margin-left: -65px;
 }
 .LogoutButton {
   display: flex;
   left: 70px;
   position: relative;
-  top: -15px;
+  top: -2px;
 }
 .LogoutButton button{
   padding: 9px 8px;

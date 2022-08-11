@@ -13,7 +13,7 @@
 .imagepro img{
     width: 24%;
     position: relative;
-    top: -154px;
+    top: -134px;
     margin-left:-70px;
 }
 .nameOwner{
@@ -90,7 +90,7 @@
 }
 .Border{
     position: relative;
-    top: 55px;
+    top: 80px;
     margin-left: 50px;
 }
 .Rizvi img{
@@ -99,11 +99,11 @@
 }
 .Rizvi{
     position: relative;
-    top:-206px;
+    top:-187px;
 }
 .DevName h1{
     font-size: 70%;
-    top: -375px;
+    top: -340px;
     font-family: 'Raleway', sans-serif;
     position: relative;
     margin-left: 50%;
@@ -111,7 +111,7 @@
 }
 .DevName h4{
     font-size: 40%;
-    top: -350px;
+    top: -320px;
     font-family: 'Raleway', sans-serif;
     position: relative;
     margin-left: 50%;
@@ -126,7 +126,7 @@
   margin-top: 10px;
   color: #111;
   transition: 0.2s;
-  top: -350px;
+  top: -310px;
   position: relative;
     margin-left: 50%;
     text-decoration: none;
@@ -137,7 +137,7 @@
   letter-spacing: 6px;
 }
 .DevName p{
-    top: -330px;
+    top: -300px;
     position: relative;
     margin-left: 50%;
     font-size: 30%;

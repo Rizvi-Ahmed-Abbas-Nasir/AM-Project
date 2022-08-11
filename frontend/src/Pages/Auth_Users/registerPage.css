@@ -31,6 +31,7 @@ body{
     position: relative;
 }
 
+
 .Pageregister button{
     padding: 9px 12px;
     border: none;
@@ -44,13 +45,13 @@ body{
 
 .Pageregister{
     position: relative;
-    top: 10px;
+    top: -10px;
 }
 .HeaderIcon2{
     width: 60px;
     margin-left:44%;
     border-radius: 6px;
-    top: 20px;
+    top:-10px;
     position: relative;
 }
 
@@ -60,7 +61,7 @@ body{
     height: 9vw;
     width: 40vw;
     background-color: #1888ff;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 .SignUpWithGoogle{
     background-color: white;
@@ -93,4 +94,11 @@ body{
     top: 10px;
     left: 15px;
     font-size: 110%;
+}
+
+.SignUptext h2{
+    position: relative;
+    top: 38px;
+    left: 40px;
+    color: rgb(34, 33, 33);
 }

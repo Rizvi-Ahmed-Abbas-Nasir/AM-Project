@@ -20,6 +20,9 @@ function Register() {
     <>
     <Header />
     <section className="Component3">
+      <div className="SignUptext">
+      <h2>Sign Up</h2>
+      </div>
        <Link to = "/" >
         <img className="HeaderIcon2" src={iconsource} alt='Headericon' />
       </Link>
@@ -65,7 +68,7 @@ function Register() {
         <p>Sign In With Google</p>
       </div>
       <div className="login">
-      <Link to='/login'><a>Login ?</a></Link>
+      <Link to='/login'><a>Login</a></Link>
       </div>
       </div>
     </section>

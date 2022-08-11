@@ -1,7 +1,8 @@
-.UserName h1{
-    font-size: 120%;
+.UserName p{
+    font-size: 90%;
     color: white;
-    top: 20px;
-    position: relative;
-    right: 0px;
+    position: absolute;
+    margin-top: 9px;
+    margin-left: -10px;
+
 }
