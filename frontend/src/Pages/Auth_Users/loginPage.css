@@ -25,20 +25,11 @@
     left: 15px;
     font-size: 110%;
 }
-.SignUpWithGoogle2 p{
-    position: relative;
-    right: -70px;
-    margin-top: -20px;
-    top: -10px;
-}
 .SignUpWithGoogle2 {
-    background-color: white;
-    margin-left: 130px;
-    margin-right: 170px;
-   position: relative;
-   padding: 0.5px 0px;
-   top: 30px;
-   left: 15px;
+    position: relative;
+    top: 25px;
+    left: 150px;
+   
 } 
 
 .Input1{
