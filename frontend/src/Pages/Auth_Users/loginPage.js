@@ -6,12 +6,13 @@ import iconsource from '../../assets/images/icons2.jpeg';
 import Header from "../../Header";
 import axios from "axios";
 import { gapi } from 'gapi-script';
-import { GoogleLogin } from 'react-google-login';
+// import { GoogleLogin } from 'react-google-login';
 import { useNavigate } from "react-router-dom";
+import GoogleButton from 'react-google-button';
 
-const googleClientId ='1036516700296-ts9m761luhr7iv276b53fv5encgal37c.apps.googleusercontent.com';
-const drfClientId ='Ej4xs7HsvzdABScEI97OPEzr01rhs3d2ZLp40hNS' ;
-const drfClientSecret ='qudErGigGsg7rB7jQHfZAyAr1puWQ0QCpijvuniJVai4I1ljWkcEJQN7EKXl2yYOvs9xPtrirIEmuJPwjUhyqQKVgQAWG9o40PwW23vZdADdFQnaDuMHuloCUPoWuoX5';
+const googleClientId ='1036516700296-qp80hk14rrbapconlj912eg757ggd18t.apps.googleusercontent.com';
+const drfClientId ='Yb9H2YIjYM3rY9xnXMYTAW9mrCv7sHmG76J1PJGf' ;
+const drfClientSecret ='dlsVmJCku3Fp7jq7xoaj3NzUPdYbjbRGbEkeJynr227QdhuLdVQuzbeNIqWGWStcdyosu2wabPbEPMyAdVtMiU5cRN8RiiIpw4zwLdwiS7F5ywNKW1RQkamIjeA3pLcO';
 const baseURL = "http://127.0.0.1:8000";
 
 
@@ -110,11 +111,12 @@ const LoginPage = () => {
       </div>
       <div className="Component6">
       <div className="SignUpWithGoogle2">
-        <GoogleLogin 
+        {/* <GoogleLogin 
+        render={renderProps => <GoogleButton {...renderProps} />}
          clientId={googleClientId}
          onSuccess={(response) => handleGoogleLogin(response)}
          onFailure={onFailure}
-        />
+        /> */}
       </div>
       <div className="signUp">
       <Link to='/register'><a>Sign Up</a></Link>
