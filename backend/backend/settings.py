@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
+import os
 from pathlib import Path
 from datetime import timedelta
 from decouple import config
@@ -61,10 +62,15 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'backend.urls'
 
+
+BASE_DIR1 = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates'],
+        'DIRS': [
+            os.path.join(BASE_DIR1, 'build')
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -168,8 +174,8 @@ AUTHENTICATION_BACKENDS = (
 )
 
 # Google configuration
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY ="1036516700296-ts9m761luhr7iv276b53fv5encgal37c.apps.googleusercontent.com"
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET ="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" 
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY ="1036516700296-qp80hk14rrbapconlj912eg757ggd18t.apps.googleusercontent.com"
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET ="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" 
 
 # Define SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE to get extra permissions from Google.
 SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = [
