@@ -6,7 +6,7 @@ import iconsource from '../../assets/images/icons2.jpeg';
 import Header from "../../Header";
 import axios from "axios";
 import { gapi } from 'gapi-script';
-// import { GoogleLogin } from 'react-google-login';
+import { GoogleLogin } from 'react-google-login';
 import { useNavigate } from "react-router-dom";
 import GoogleButton from 'react-google-button';
 
@@ -111,12 +111,12 @@ const LoginPage = () => {
       </div>
       <div className="Component6">
       <div className="SignUpWithGoogle2">
-        {/* <GoogleLogin 
+        <GoogleLogin 
         render={renderProps => <GoogleButton {...renderProps} />}
          clientId={googleClientId}
          onSuccess={(response) => handleGoogleLogin(response)}
          onFailure={onFailure}
-        /> */}
+        />
       </div>
       <div className="signUp">
       <Link to='/register'><a>Sign Up</a></Link>

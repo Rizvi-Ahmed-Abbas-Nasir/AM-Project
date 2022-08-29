@@ -5,6 +5,7 @@ import Product3 from './components/Product/Product3';
 import SliderProduct from './components/Product/SliderProduct';
 import Card from './components/Cards/Card';
 import Owner from './components/OwnerProfile/Owner';
+import Imagegb from './assets/images/bgCharging.jpg'
 
 function HomeSection() {
   return (
@@ -34,6 +35,9 @@ function HomeSection() {
           </div>
           <div className='Card'>
           <Card />
+          </div>
+          <div className='bgedites'>
+            <img src={Imagegb} alt='bg'/>
           </div>
           <section className='HomeSection2'>
           <div className='Home'>
