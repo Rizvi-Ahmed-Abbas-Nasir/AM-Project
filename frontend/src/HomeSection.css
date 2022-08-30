@@ -142,7 +142,7 @@ background-color: rgba(39, 41, 41, 0.836);
 }
 .bgedites{
  margin-left: 50px;
- margin-top: -170px;
+ margin-top: -220px;
 
 }
 
@@ -161,4 +161,8 @@ background-color: rgba(39, 41, 41, 0.836);
     top:470px;
     margin-left: 50%;
     border-radius: 10px;
+}
+.Card{
+    margin-top: -10%;
+    margin-bottom:50px;
 }

@@ -38,9 +38,6 @@ function HomeSection() {
       <div className="Products">
         <SliderProduct />
       </div>
-      <div className="Card">
-        <Card />
-      </div>
       <div className="bgedites">
         <div className="ImageSlider">
         <ImageSlider />
@@ -97,6 +94,9 @@ function HomeSection() {
         <div className="OwnerProfile">
           <Owner />
         </div>
+        <div className="Card">
+        <Card />
+      </div>
       </section>
     </div>
   );
