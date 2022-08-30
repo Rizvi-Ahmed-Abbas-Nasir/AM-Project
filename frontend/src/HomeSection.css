@@ -138,8 +138,26 @@ background-color: rgba(39, 41, 41, 0.836);
 .bgedites img{
     width: 95%;
     border-radius: 10px;
+    
 }
 .bgedites{
  margin-left: 50px;
- margin-top: 120px;
+ margin-top: -170px;
+
+}
+
+.BgText{
+    position:relative;
+    top: -330px;
+    font-size: 200%;
+    margin-left: 5%;
+}
+.AnantGray{
+    width: 50%;
+}
+
+.ImageSlider{
+    position: relative;
+    top:500px;
+    margin-left: 50%;
 }

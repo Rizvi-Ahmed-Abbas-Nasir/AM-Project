@@ -26,6 +26,7 @@
     "react-preloaders": "^3.0.3",
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
+    "react-simple-image-slider": "^2.4.1",
     "react-slick": "^0.29.0",
     "react-spinners": "^0.13.4",
     "react-state-provider": "^0.0.4",
