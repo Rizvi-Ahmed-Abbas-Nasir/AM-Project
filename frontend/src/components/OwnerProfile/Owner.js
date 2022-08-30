@@ -49,6 +49,9 @@ function Owner() {
               <div className='Text2'>
               <h1>Electric Bikes</h1>
               </div>
+              <div className='NewCom'>
+
+              </div>
           </div>
             
     </div>

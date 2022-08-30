@@ -5,6 +5,7 @@ import Anant1 from '../../assets/images/Anant2.jpeg'
 import Anant2 from '../../assets/images/Anant3.jpeg'
 import Anant3 from '../../assets/images/Anant4.jpeg'
 import Anant6 from '../../assets/images/Anant6.jpeg'
+import './ImageSlider.css'
 
 const images = [
   { url: Anant1 },
@@ -17,7 +18,7 @@ const images = [
 
 export const ImageSlider = () => {
   return (
-    <div>
+    <div className="SliderImage">
       <SimpleImageSlider
         width={500}
         height={300}

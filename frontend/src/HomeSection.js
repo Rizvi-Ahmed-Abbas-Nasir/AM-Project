@@ -8,6 +8,7 @@ import Owner from "./components/OwnerProfile/Owner";
 import Imagegb from "./assets/images/bgCharging.jpg";
 import { ImageSlider } from "./components/ImageSlider/ImageSlider";
 import Components from "./components/DiffCom/Components";
+import ComSlider from "./components/ComSlider/ComSlider.js"
 
 function HomeSection() {
   return (
@@ -87,6 +88,9 @@ function HomeSection() {
         </div>
         <div className="Product3">
           <Product3 />
+        </div>
+        <div className="ComSlider">
+          <ComSlider />
         </div>
       </section>
       <section className="HomeSection3">

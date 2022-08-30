@@ -148,7 +148,7 @@ background-color: rgba(39, 41, 41, 0.836);
 
 .BgText{
     position:relative;
-    top: -330px;
+    top: -350px;
     font-size: 200%;
     margin-left: 5%;
 }
@@ -158,6 +158,7 @@ background-color: rgba(39, 41, 41, 0.836);
 
 .ImageSlider{
     position: relative;
-    top:500px;
+    top:470px;
     margin-left: 50%;
+    border-radius: 10px;
 }
