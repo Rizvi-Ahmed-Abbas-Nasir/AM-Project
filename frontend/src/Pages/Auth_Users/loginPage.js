@@ -94,22 +94,30 @@ const LoginPage = () => {
     <section className="Component5">
     <div className="SignUptext">
       <h2>Login</h2>
+      <p>Welcome to Login to get best user experience </p>
       </div>
-      <Link to = "/" >
+      {/* <Link to = "/" >
         <img className="HeaderIcon2" src={iconsource} alt='Headericon' />
-      </Link>
+      </Link> */}
       <div className="Pageregister1">
       <form onSubmit={handleSubmit}>
-      <div className="Input1">
+        <div className="usernameInput">
         <label hlabeltmlFor="username">Username</label>
-        <input type="text" id="username" placeholder="Enter Username" />
+        <input type="text" id="username" name='username' placeholder="Enter Username" />
+        </div>
+        <div className="passwordInput">
         <label htmlFor="password">Password</label>
         <input type="password" id="password" placeholder="Enter Password" />
-      </div>
-        <button type="submit">Login</button>
+        </div>
+
+        <button type="submit">LOGIN</button>
+        <div className="NEwUser">
+          <p>New User?</p>
+        <Link to='/register'><a>Sign Up</a></Link>
+        </div>
       </form>
       </div>
-      <div className="Component6">
+      <div className="Component8">
       <div className="SignUpWithGoogle2">
         <GoogleLogin 
         render={renderProps => <GoogleButton {...renderProps} />}
@@ -117,9 +125,6 @@ const LoginPage = () => {
          onSuccess={(response) => handleGoogleLogin(response)}
          onFailure={onFailure}
         />
-      </div>
-      <div className="signUp">
-      <Link to='/register'><a>Sign Up</a></Link>
       </div>
       </div>
     </section>
