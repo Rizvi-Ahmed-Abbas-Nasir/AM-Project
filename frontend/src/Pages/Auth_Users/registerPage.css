@@ -15,13 +15,13 @@ body{
     left: 220px;
 }
 .Pageregister button{
-    padding: 9px 138px;
+    padding: 9px 129px;
     border: none;
     background-color: black;
     color: white;
     position: relative;
     left: 60px;
-    top: 150px;
+    top: 100px;
     z-index: 10;
     border-radius: 5px;
     font-size: 18px;
@@ -87,7 +87,7 @@ body{
     color: rgb(34, 33, 33);
 }
 .Component9{
-    top: -350px;
+    top: -417px;
     position: relative;
     height: 38vw;
     width: 32vw;
@@ -107,13 +107,13 @@ body{
     left: 60px;
     position: relative;
     margin-top: 10px;
-    top: 87px;
+    top: 65px;
     border-radius: 5px;
 }
 .usernameInput1 label{
     left: 61px;
     position: relative;
-    top: 90px;
+    top: 70px;
     font-size: 13px;
 }
 .passwordInput1 input{
@@ -124,7 +124,7 @@ body{
     left: 60px;
     position: relative;
     margin-top: 10px;
-    top: 90px;
+    top: 68px;
     border-radius: 5px;
     background-color: #fff;
 
@@ -132,7 +132,7 @@ body{
 .passwordInput1 label{
     left: 61px;
     position: relative;
-    top: 95px;
+    top:75px;
     font-size: 13px;
 }
 .emailInput input{
@@ -143,7 +143,7 @@ body{
     left: 60px;
     position: relative;
     margin-top: 10px;
-    top: 90px;
+    top: 62px;
     border-radius: 5px;
     background-color: #e8f0fe;
 
@@ -151,14 +151,14 @@ body{
 .emailInput label{
     left: 61px;
     position: relative;
-    top: 95px;
+    top: 69px;
     font-size: 13px;
 }
 
 
 .oldUser{
     position: relative;
-    top: 160px;
+    top: 105px;
     left: 55px;
 }
 
@@ -167,3 +167,15 @@ body{
     left: 95px;
     top: -13px;
 }
+.SignUptext1{
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+.SignUptext1 p{
+    font-size: 14px;
+    position: relative;
+    top: 15px;
+    left: 5px;
+   }

@@ -68,8 +68,9 @@ function Register() {
     <>
     <Header />
     <section className="Component3">
-      <div className="SignUptext">
-      {/* <h2>Sign Up</h2> */}
+    <div className="SignUptext1">
+      <h2>Sign Up</h2>
+      <p>Welcome to Login to get best user experience </p>
       </div>
       <div className="Pageregister">
       <form onSubmit={handleSubmit}>
@@ -107,10 +108,10 @@ function Register() {
       </form>
       </div>
       <div className="oldUser">
-          <p>Already Have Account?</p>
-        <Link to='/login'><a>Login</a></Link>
-        </div>
-        <div className="Component9">
+      <p>Already Have Account?</p>
+      <Link to='/login'><a>Login</a></Link>
+      </div>
+      <div className="Component9">
       <div className="SignUpWithGoogle2">
         <GoogleLogin 
         render={renderProps => <GoogleButton {...renderProps} />}
