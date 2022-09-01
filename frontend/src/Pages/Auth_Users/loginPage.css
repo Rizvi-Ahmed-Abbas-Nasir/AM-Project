@@ -6,7 +6,7 @@
     background-color: rgb(255, 255, 255);
     z-index: 10;
     margin-left: 32%;
-    border-bottom-right-radius:10px ;
+    border-bottom-right-radius:20px;
     left: 220px;
 }
 .Component8{
@@ -16,11 +16,10 @@
     width: 32vw;
     background-image: url("https://i.pinimg.com/736x/6b/1b/22/6b1b22573f9f3d4bba11a9fa5cb45652.jpg");
     z-index: 10;
-   border-top-left-radius:10px ;
+   border-top-left-radius:20px ;
     right: 437px;
     background-size: 105%;
-    background-position: cover;
-    
+    background-position: cover; 
 }
 
 .Component6{

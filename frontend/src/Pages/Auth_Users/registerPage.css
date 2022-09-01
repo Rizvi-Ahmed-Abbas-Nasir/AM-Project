@@ -4,43 +4,27 @@ body{
 }
 
 .Component3{
-    top: 150px;
+    top: 110px;
     position: relative;
-    height: 35vw;
-    width: 40vw;
-    background-color: rgb(191, 194, 194);
+    height: 38vw;
+    width: 32vw;
+    background-color: rgb(255, 255, 255);
     z-index: 10;
     margin-left: 32%;
+    border-bottom-right-radius:20px;
+    left: 220px;
 }
-
-
-.Input{
-    margin-top: 20px;
-}
-
-.Input label{
-    left:105px;
-    position: relative;
-}
-.Input input{
-    padding: 10px;
-    padding-right:170px;
-    border: none;
-    display: flex;
-    left: 100px;
-    position: relative;
-}
-
-
 .Pageregister button{
-    padding: 9px 12px;
+    padding: 9px 138px;
     border: none;
     background-color: black;
     color: white;
     position: relative;
-    left: 230px;
-    top: 20px;
+    left: 60px;
+    top: 150px;
     z-index: 10;
+    border-radius: 5px;
+    font-size: 18px;
 }
 
 .Pageregister{
@@ -101,4 +85,85 @@ body{
     top: 38px;
     left: 40px;
     color: rgb(34, 33, 33);
+}
+.Component9{
+    top: -350px;
+    position: relative;
+    height: 38vw;
+    width: 32vw;
+    background-image: url("https://i.pinimg.com/736x/6b/1b/22/6b1b22573f9f3d4bba11a9fa5cb45652.jpg");
+    z-index: 10;
+   border-top-left-radius:20px ;
+    right: 437px;
+    background-size: 105%;
+    background-position: cover;
+    
+}
+.usernameInput1 input{
+    padding: 15px;
+    padding-right:150px;
+    border: none;
+    display: flex;
+    left: 60px;
+    position: relative;
+    margin-top: 10px;
+    top: 87px;
+    border-radius: 5px;
+}
+.usernameInput1 label{
+    left: 61px;
+    position: relative;
+    top: 90px;
+    font-size: 13px;
+}
+.passwordInput1 input{
+    padding: 15px;
+    padding-right:150px;
+    border: none;
+    display: flex;
+    left: 60px;
+    position: relative;
+    margin-top: 10px;
+    top: 90px;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+.passwordInput1 label{
+    left: 61px;
+    position: relative;
+    top: 95px;
+    font-size: 13px;
+}
+.emailInput input{
+    padding: 15px;
+    padding-right:150px;
+    border: none;
+    display: flex;
+    left: 60px;
+    position: relative;
+    margin-top: 10px;
+    top: 90px;
+    border-radius: 5px;
+    background-color: #e8f0fe;
+
+}
+.emailInput label{
+    left: 61px;
+    position: relative;
+    top: 95px;
+    font-size: 13px;
+}
+
+
+.oldUser{
+    position: relative;
+    top: 160px;
+    left: 55px;
+}
+
+.oldUser a{
+    position: relative;
+    left: 95px;
+    top: -13px;
 }
