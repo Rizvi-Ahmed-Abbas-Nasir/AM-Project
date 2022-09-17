@@ -33,15 +33,17 @@ function Header() {
     <div className='Headers header-section  d-none d-xl-block'>
       <Link to = "/" >
         <img className="HeaderIcon" src={iconsource} alt='Headericon' />
-      </Link>
+      </Link> 
         <div className="IconName">
           <h2>ANANT</h2>
           <h3>Motors</h3>
         </div>
         <Navbar /> 
         <div className='Favorite'>
+        <Link style={{textDecoration: 'none'}} to='/AddToCart'>
         <span className="header__optionLineTwo header__Bastketcart">{cart?.length}</span>
         <StarIcon value={{ className: "shared-class", size: 70 }}className='IconStar'/>
+        </Link>
         </div>
         <div>
           {user ? (

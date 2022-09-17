@@ -1,0 +1,56 @@
+.Component12{
+    top: 120px;
+    position: relative;
+    height: 20vw;
+    width: 90vw;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+    margin-left: 32%;
+    left: 5px;
+    background: rgb(238, 236, 236);
+}
+/* .Component12:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 1000px);
+    left: 150px;
+    width: 400px;
+    height:200px;
+    background: rgb(48, 45, 45);
+    transform: skew(-15deg);
+    transform-origin:top;
+    top: 120px;
+  } */
+.gifsccoter{
+    position: relative;
+    top: -80px;
+}
+.cartdis{
+    position: relative;
+    top: -200px;
+    margin-left: 50%;
+}
+.cartdis h4{
+    font-size: 350%;
+    font-family: 'Raleway', sans-serif;
+    position: inherit;
+    top: -120px;
+    right: 50px;
+}
+.cartdis h2{
+    font-size: 520%;
+    position: inherit;
+    top: -120px;
+    margin-left: 40%;
+    color: rgb(43, 43, 49);
+}
+.Component13{
+    top: 150px;
+    position: relative;
+    height: 20vw;
+    width: 90vw;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+    margin-left: 32%;
+    left: 5px;
+}

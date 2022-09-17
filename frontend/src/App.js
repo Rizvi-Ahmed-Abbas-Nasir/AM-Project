@@ -4,6 +4,7 @@ import { BrowserRouter , Route ,Routes } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext";
 import Register from './Pages/Auth_Users/registerPage'
 import LoginPage from './Pages/Auth_Users/loginPage';
+import AddToCart from './Pages/AddTOCart/AddToCart';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
     </Routes>
     <Routes>
       <Route path='login' element={<LoginPage/>}/>
+    </Routes>
+    <Routes>
+      <Route path='AddToCart' element={<AddToCart/>}/>
     </Routes>
     </AuthProvider>
     </BrowserRouter>

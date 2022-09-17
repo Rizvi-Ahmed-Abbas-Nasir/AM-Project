@@ -70,7 +70,7 @@ function Register() {
     <section className="Component3">
     <div className="SignUptext1">
       <h2>Sign Up</h2>
-      <p>Welcome to Login to get best user experience </p>
+      <p>Welcome to Sign Up to get best user experience </p>
       </div>
       <div className="Pageregister">
       <form onSubmit={handleSubmit}>
@@ -108,7 +108,7 @@ function Register() {
       </form>
       </div>
       <div className="oldUser">
-      <p>Already Have Account?</p>
+      <p>Already Have An Account?</p>
       <Link to='/login'><a>Login</a></Link>
       </div>
       <div className="Component9">
